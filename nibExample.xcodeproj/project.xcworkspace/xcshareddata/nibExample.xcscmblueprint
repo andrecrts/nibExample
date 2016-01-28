@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "92579E0DD2AAA8C8A985177BAD787FDADD472459",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "92579E0DD2AAA8C8A985177BAD787FDADD472459" : 0,
+    "A29C93F12820EA5FF1E735EF8E116FF32FC65637" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C506079C-30A6-47EE-B354-5F5A725A7380",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "92579E0DD2AAA8C8A985177BAD787FDADD472459" : "nibExample\/",
+    "A29C93F12820EA5FF1E735EF8E116FF32FC65637" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "nibExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "nibExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andrecrts\/nibExample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "92579E0DD2AAA8C8A985177BAD787FDADD472459"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/andrecrts\/o_project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A29C93F12820EA5FF1E735EF8E116FF32FC65637"
+    }
+  ]
+}

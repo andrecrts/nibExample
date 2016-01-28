@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MMDrawerController.h"
+#import "mainViewController.h"
+#import "sideViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) MMDrawerController* drawerController;
+@property (strong, nonatomic) UINavigationController* mainController;
+@property (strong, nonatomic) sideViewController* sideController;
 
 
 @end

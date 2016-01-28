@@ -20,6 +20,12 @@
 		8285AE351C591E7B00C9CA0D /* sliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285AE331C591E7B00C9CA0D /* sliderView.m */; };
 		8285AE361C591E7B00C9CA0D /* sliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8285AE341C591E7B00C9CA0D /* sliderView.xib */; };
 		8285AE3A1C59607700C9CA0D /* detailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285AE391C59607700C9CA0D /* detailVC.m */; };
+		8285AE401C5A63D400C9CA0D /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285AE3F1C5A63D400C9CA0D /* mainViewController.m */; };
+		8285AE4B1C5A66EE00C9CA0D /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285AE431C5A66EE00C9CA0D /* MMDrawerBarButtonItem.m */; };
+		8285AE4C1C5A66EE00C9CA0D /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285AE451C5A66EE00C9CA0D /* MMDrawerController.m */; };
+		8285AE4D1C5A66EE00C9CA0D /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285AE481C5A66EE00C9CA0D /* MMDrawerVisualState.m */; };
+		8285AE4E1C5A66EE00C9CA0D /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285AE4A1C5A66EE00C9CA0D /* UIViewController+MMDrawerController.m */; };
+		8285AE511C5A6A3F00C9CA0D /* sideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8285AE501C5A6A3F00C9CA0D /* sideViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,20 @@
 		8285AE341C591E7B00C9CA0D /* sliderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sliderView.xib; sourceTree = "<group>"; };
 		8285AE381C59607700C9CA0D /* detailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailVC.h; sourceTree = "<group>"; };
 		8285AE391C59607700C9CA0D /* detailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailVC.m; sourceTree = "<group>"; };
+		8285AE3B1C5A638000C9CA0D /* nibExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nibExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		8285AE3E1C5A63D400C9CA0D /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		8285AE3F1C5A63D400C9CA0D /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		8285AE421C5A66EE00C9CA0D /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		8285AE431C5A66EE00C9CA0D /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		8285AE441C5A66EE00C9CA0D /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		8285AE451C5A66EE00C9CA0D /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		8285AE461C5A66EE00C9CA0D /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		8285AE471C5A66EE00C9CA0D /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		8285AE481C5A66EE00C9CA0D /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		8285AE491C5A66EE00C9CA0D /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		8285AE4A1C5A66EE00C9CA0D /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		8285AE4F1C5A6A3F00C9CA0D /* sideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sideViewController.h; sourceTree = "<group>"; };
+		8285AE501C5A6A3F00C9CA0D /* sideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sideViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +134,11 @@
 		8285ADF91C59100600C9CA0D /* nibExample */ = {
 			isa = PBXGroup;
 			children = (
+				8285AE411C5A65ED00C9CA0D /* MySideMenu */,
 				8285AE321C591E7B00C9CA0D /* sliderView.h */,
 				8285AE331C591E7B00C9CA0D /* sliderView.m */,
+				8285AE4F1C5A6A3F00C9CA0D /* sideViewController.h */,
+				8285AE501C5A6A3F00C9CA0D /* sideViewController.m */,
 				8285AE341C591E7B00C9CA0D /* sliderView.xib */,
 				8285AE2F1C59183000C9CA0D /* MyViewController.h */,
 				8285AE301C59183000C9CA0D /* MyViewController.m */,
@@ -131,6 +154,9 @@
 				8285ADFA1C59100600C9CA0D /* Supporting Files */,
 				8285AE381C59607700C9CA0D /* detailVC.h */,
 				8285AE391C59607700C9CA0D /* detailVC.m */,
+				8285AE3B1C5A638000C9CA0D /* nibExample-Bridging-Header.h */,
+				8285AE3E1C5A63D400C9CA0D /* mainViewController.h */,
+				8285AE3F1C5A63D400C9CA0D /* mainViewController.m */,
 			);
 			path = nibExample;
 			sourceTree = "<group>";
@@ -159,6 +185,22 @@
 				8285AE211C59100700C9CA0D /* Info.plist */,
 			);
 			path = nibExampleUITests;
+			sourceTree = "<group>";
+		};
+		8285AE411C5A65ED00C9CA0D /* MySideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8285AE421C5A66EE00C9CA0D /* MMDrawerBarButtonItem.h */,
+				8285AE431C5A66EE00C9CA0D /* MMDrawerBarButtonItem.m */,
+				8285AE441C5A66EE00C9CA0D /* MMDrawerController.h */,
+				8285AE451C5A66EE00C9CA0D /* MMDrawerController.m */,
+				8285AE461C5A66EE00C9CA0D /* MMDrawerController+Subclass.h */,
+				8285AE471C5A66EE00C9CA0D /* MMDrawerVisualState.h */,
+				8285AE481C5A66EE00C9CA0D /* MMDrawerVisualState.m */,
+				8285AE491C5A66EE00C9CA0D /* UIViewController+MMDrawerController.h */,
+				8285AE4A1C5A66EE00C9CA0D /* UIViewController+MMDrawerController.m */,
+			);
+			name = MySideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,11 +336,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8285AE021C59100700C9CA0D /* ViewController.m in Sources */,
+				8285AE4D1C5A66EE00C9CA0D /* MMDrawerVisualState.m in Sources */,
+				8285AE4E1C5A66EE00C9CA0D /* UIViewController+MMDrawerController.m in Sources */,
 				8285AE351C591E7B00C9CA0D /* sliderView.m in Sources */,
+				8285AE401C5A63D400C9CA0D /* mainViewController.m in Sources */,
+				8285AE4B1C5A66EE00C9CA0D /* MMDrawerBarButtonItem.m in Sources */,
 				8285ADFF1C59100700C9CA0D /* AppDelegate.m in Sources */,
+				8285AE4C1C5A66EE00C9CA0D /* MMDrawerController.m in Sources */,
 				8285AE311C59183000C9CA0D /* MyViewController.m in Sources */,
 				8285ADFC1C59100700C9CA0D /* main.m in Sources */,
 				8285AE3A1C59607700C9CA0D /* detailVC.m in Sources */,
+				8285AE511C5A6A3F00C9CA0D /* sideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +485,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = nibExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andre.nibExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "nibExample/nibExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -448,10 +499,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = nibExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andre.nibExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "nibExample/nibExample-Bridging-Header.h";
 			};
 			name = Release;
 		};

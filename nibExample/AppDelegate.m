@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "sideViewController.h"
+#import "mainViewController.h"
+#import "MMDrawerController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIStoryboard *storyboard;
+    
+    storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    self.sideController = [storyboard instantiateViewControllerWithIdentifier:
+                           @"sideViewController"];
+    self.mainController = [storyboard instantiateViewControllerWithIdentifier:
+                           @"mainNAv"];
+    
+    self.drawerController = [[MMDrawerController alloc]
+                                             initWithCenterViewController:self.mainController
+                                             leftDrawerViewController:self.sideController
+                                             rightDrawerViewController:nil];
+    
+    
+    self.drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModePanningCenterView;
+    self.drawerController.closeDrawerGestureModeMask = MMOpenDrawerGestureModePanningCenterView;
+    
+    [self.window setRootViewController:self.drawerController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

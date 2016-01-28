@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "c2b0425bfc3f083d378f2af41cb0ce5a"
+build_time: [507308167, 776349000]
+inputs:
+  "/Users/victordeleon/Desktop/iOS Projects/nibExample/nibExample/sideViewController.swift": [507308160, 0]
