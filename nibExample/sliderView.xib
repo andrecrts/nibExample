@@ -52,8 +52,8 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tic-mu-Pux">
-                    <rect key="frame" x="0.0" y="0.0" width="150" height="170"/>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tic-mu-Pux">
+                    <rect key="frame" x="0.0" y="0.0" width="148" height="168"/>
                 </button>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -66,10 +66,14 @@
                 <constraint firstItem="Y7A-FP-tX8" firstAttribute="firstBaseline" secondItem="WXR-FT-awE" secondAttribute="firstBaseline" id="Tbc-OA-2Fh"/>
                 <constraint firstItem="WXR-FT-awE" firstAttribute="baseline" secondItem="Y7A-FP-tX8" secondAttribute="baseline" id="afF-8W-nhO"/>
                 <constraint firstItem="FZd-PY-cc6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="dJ3-xO-oUX"/>
+                <constraint firstItem="Tic-mu-Pux" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="1" id="dyj-8G-pWt"/>
                 <constraint firstAttribute="bottom" secondItem="Y7A-FP-tX8" secondAttribute="bottom" constant="5" id="mKq-iK-Ypn"/>
                 <constraint firstItem="JXD-aS-F7U" firstAttribute="top" secondItem="FZd-PY-cc6" secondAttribute="bottom" constant="8" symbolic="YES" id="oXU-Sq-Lut"/>
+                <constraint firstAttribute="trailing" secondItem="Tic-mu-Pux" secondAttribute="trailing" constant="1" id="ozG-ex-wno"/>
                 <constraint firstItem="JXD-aS-F7U" firstAttribute="leading" secondItem="FZd-PY-cc6" secondAttribute="leading" id="rU9-1q-NSB"/>
                 <constraint firstItem="WXR-FT-awE" firstAttribute="trailing" secondItem="JXD-aS-F7U" secondAttribute="trailing" id="sep-PO-Bq7"/>
+                <constraint firstAttribute="bottom" secondItem="Tic-mu-Pux" secondAttribute="bottom" constant="1" id="v5u-hb-ssJ"/>
+                <constraint firstItem="Tic-mu-Pux" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="1" id="ySa-sD-If7"/>
                 <constraint firstAttribute="trailing" secondItem="FZd-PY-cc6" secondAttribute="trailing" constant="-22" id="zYF-cd-Suz"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

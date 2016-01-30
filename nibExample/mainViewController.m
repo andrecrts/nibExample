@@ -11,6 +11,7 @@
 
 
 @interface mainViewController ()
+//@property (weak, nonatomic) IBOutlet UINavigationItem *navItem;
 
 @end
 
@@ -19,6 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //UIImageView* img = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"user_mini.png"]];
+    //self.navItem.titleView = img;
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
