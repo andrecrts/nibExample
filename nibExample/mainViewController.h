@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface mainViewController : UIViewController
+@interface mainViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UIButton *btnCombo;
+@property (weak, nonatomic) IBOutlet UITableView *tableCombo;
+@property (strong, nonatomic) NSArray *data;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *comboHeight;
+
+- (IBAction)btnAction:(id)sender;
 
 @end

@@ -79,6 +79,12 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="393" y="375"/>
         </view>
+        <view contentMode="scaleToFill" id="0gq-Cr-0ia">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="810" y="836"/>
+        </view>
     </objects>
     <resources>
         <image name="landscape" width="311" height="162"/>
